@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 17px;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(20, 46, 173);
+    background-image: url(https://wallpapers.com/images/hd/cr7-hd-blue-theme-artwork-onn79xljf4m2w2s2.j);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.carousel {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel__items {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    width: 100px;
+    height: 800px;
+}
+
+.carousel_prev, .carousel_next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.carousel_prev {
+    left: 0.5em;
+}
+
+.carousel_next {
+    right: 0.5em;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.carousel__indicator {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #b10000;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em;
+}
+
+
+button {
+    background-color: rgb(22, 22, 187);
+    border-radius: 15px;
+    border-color: rgb(22, 22, 187);
+    color: white;
+    height: 80px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+form {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 50px;
+    width: 150px;
+    
+}
+
+
